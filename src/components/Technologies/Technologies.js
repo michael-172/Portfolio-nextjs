@@ -1,5 +1,6 @@
 import React from 'react';
 import { DiFirebase, DiHtml5, DiJavascript, DiReact, DiZend } from 'react-icons/di';
+import {IoLogoJavascript} from 'react-icons/io'
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -18,7 +19,6 @@ const Technologies = () =>  (
         <ListContainer>
             <ListTitle>Frontend</ListTitle>
             <ListParagraph>
-              Experience with <br />
               Html, Css, Bootstrap
             </ListParagraph>
         </ListContainer>
@@ -26,12 +26,11 @@ const Technologies = () =>  (
       
 
       <ListItem>
-        <DiJavascript size={'3rem'}/>
+        <IoLogoJavascript size={'3rem'}/>
         <ListContainer>
             <ListTitle>Frontend</ListTitle>
             <ListParagraph>
-              Experience with <br />
-              Pure JavaScript
+              JavaScript, Es6
             </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,11 +40,11 @@ const Technologies = () =>  (
         <ListContainer>
             <ListTitle>Frontend</ListTitle>
             <ListParagraph>
-              Experience with <br />
               React.js & Redux Toolkit
             </ListParagraph>
         </ListContainer>
       </ListItem>
+
     </List>
   </Section>
 );

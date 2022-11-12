@@ -14,7 +14,9 @@ const Hero = (props) => (
         Iam a junior frontend developer, have the passion to learn and <br/> increase my skills in this field,
         I'am a self learner, and a freelancer
       </SectionText>
-      <Button>Learn More</Button>
+      <Button>
+        <a href="cv.pdf" download="Michael Micheal - Frontend Developer Reactjs.pdf" style={{color: "#FFF"}}>Download CV</a> 
+      </Button>
     </LeftSection>
   </Section>
 );
